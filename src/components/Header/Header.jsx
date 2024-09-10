@@ -13,7 +13,7 @@ export default function Header() { //most React projex used 'default'
 
   return (
     <header>
-      <image src={reactImg} alt="Stylized atom" />
+      <img src={reactImg} alt="Stylized atom" />
       <h1>React Essentials</h1>
       <p>
         {description} React concepts you will need for almost any app you are going to build!
