@@ -1,4 +1,6 @@
-import reactImg from '../assets/react-core-concepts.png' //dynamic value syntax
+import reactImg from '../../assets/react-core-concepts.png' //dynamic value syntax
+import './Header.css';
+
 const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
 
 function genRandomInt(max) {
