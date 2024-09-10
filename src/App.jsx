@@ -4,10 +4,6 @@ function genRandomInt(max) {
   return Math.floor(Math.random() * (max + 1));
 }
 
-function test(int){
-  return int;
-}
-
 function Header() {
   return (
     <header>
