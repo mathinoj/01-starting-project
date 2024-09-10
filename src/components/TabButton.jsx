@@ -1,12 +1,10 @@
-export default function TabButton({children}){
+export default function TabButton({children, onSelect}){
   // export default function TabButton({label}){
-    function handleClick(){
-      console.log("herro");
-    }
+    //children is a PROP provided by react and MUST be named as such
 
   return (
     <li>
-      <button onClick={handleClick}>{children}</button>
+      <button onClick={onSelect}>{children}</button>
     </li>
     // <li><button>{label}</button></li>
   )
